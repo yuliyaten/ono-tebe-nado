@@ -4,12 +4,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" 
-    href="./fonts/fonts.css" />
-    <link rel="stylesheet" 
-    href="./styles/global.css" />
-    <link rel="stylesheet" 
-    href="./styles/style.css" />
+    <link rel="stylesheet" href="./fonts/fonts.css" />
+    <link rel="stylesheet" href="./styles/global.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
     <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
   </head>
   <body>
@@ -37,27 +34,27 @@
         />
       </a>
       <address class="header__address">
-        <a href="tel:+70000000">+9 999 555 55 55</a> <br />
-        <a href="mailto:mail@example.com">info@sobaka.ge</a> <br />
-        <p>
-          наб. Принсенграхт 263-265, <br />
-          Амстердам
-        </p>
+        <div class="address">
+          <a href="tel:+70000000">+9 999 555 5555</a><br />
+          <a href="mailto:mail@example.com">info@sobaka.ge</a>
+          <p>наб. Принсенграхт 263-265, Амстердам</p>
+        </div>
       </address>
     </header>
     <main class="content">
       <section class="cover">
         <div class="overlay"></div>
         <h1 class="cover__title">
-          <span class="aligned-text-one"
-            >о<span class="aligned-text-two">но</span></span
-          >
-          <span class="aligned-text_center-one"
-            >те<span class="aligned-text_center-two">бе</span></span
-          >
-          <span class="aligned-text_right-one"
-            >н<span class="aligned-text_right-two">адо</span></span
-          >
+          <span class="aligned-text"
+            >о<span class="letter-spacing-extended">но</span>
+          </span>
+          <span class="aligned-text_center"
+            >те<span class="letter-spacing-extended">бе</span>
+          </span>
+          <span class="aligned-text_right letter-spacing-extended"
+            >н<span class="aligned-text">ад</span
+            ><span class="no-letter-spacing">о</span>
+          </span>
         </h1>
         <div class="cover__description">
           <p class="cover__description-text">
@@ -67,15 +64,15 @@
         </div>
       </section>
       <section class="lots">
-        <h1 class="lots__heading">лоты</h1>
+        <h2 class="lots__heading">лоты</h2>
         <ul class="lots__card-list">
           <li class="lots__card-list-item">
             <a class="card-link" href="#3">
               <article class="card card_type_film">
                 <div class="overlay"></div>
-                <h2 class="card__title">
+                <h3 class="card__title">
                   Фильм режиссёра, который бросил киношколу
-                </h2>
+                </h3>
                 <p class="card__text">
                   Не просто бросил, а ушёл с первой лекции. Какой была бы ваша
                   ставка, если бы вы не знали, что режиссёр — Пол Томас
@@ -88,9 +85,9 @@
             <a class="card-link" href="#4">
               <article class="card card_type_book">
                 <div class="overlay"></div>
-                <h2 class="card__title">
+                <h3 class="card__title">
                   Книга, где описан один скучный день из жизни рекламного агента
-                </h2>
+                </h3>
                 <p class="card__text">
                   Объёмом почти в тысячу страниц. Иногда без знаков препинания и
                   с переходами на древнеанглийский. В ней одновременно
@@ -106,9 +103,9 @@
             <a class="card-link" href="#5">
               <article class="card card_type_picture">
                 <div class="overlay"></div>
-                <h2 class="card__title">
+                <h3 class="card__title">
                   Картина, которую повторит даже 5-летний сын маминой подруги
-                </h2>
+                </h3>
                 <p class="card__text">
                   Ну действительно, там линия, тут кружочек, а здесь и вовсе
                   что-то похожее на инфузорию-туфельку. Никаких полей, лесов,
@@ -132,7 +129,7 @@
           </div>
         </div>
         <div class="about__column">
-          <h3 class="about__title">Об аукционе</h3>
+          <h2 class="about__title">Об аукционе</h2>
           <div class="about__text">
             <p>
               Здесь вы не встретите очередное пафосное собрание невероятно
@@ -155,13 +152,10 @@
       </section>
     </main>
     <footer class="footer">
-      <address class="header__address">
+      <address class="address">
         <a href="tel:+70000000">+9 999 555 55 55</a> <br />
-        <a href="mailto:mail@example.com">info@sobaka.ge</a> <br />
-        <p>
-          наб. Принсенграхт 263-265, <br />
-          Амстердам
-        </p>
+        <a href="mailto:mail@example.com">info@sobaka.ge</a>
+        <p>наб. Принсенграхт 263-265, Амстердам</p>
       </address>
       <nav class="footer__menu">
         <ul class="footer__menu-list">
