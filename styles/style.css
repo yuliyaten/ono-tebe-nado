@@ -102,21 +102,27 @@ a {
   gap: 20px;
 }
 
+.aligned-text,
+.aligned-text_right {
+  line-height: 100px;
+}
+
+.aligned-text,
+.aligned-text_center {
+  letter-spacing: 30px;
+}
+
 .aligned-text {
   text-align: start;
-  letter-spacing: 30px;
-  line-height: 100px;
 }
 
 .aligned-text_center {
   text-align: center;
-  letter-spacing: 30px;
   line-height: 115px;
 }
 
 .aligned-text_right {
   text-align: right;
-  line-height: 100px;
 }
 
 .letter-spacing-extended {
@@ -142,11 +148,12 @@ a {
 .cover__description-text {
   text-align: center;
   font-family: Raleway, Arial, sans-serif;
-  font-style: normal;
-  line-height: 28px;
-  word-spacing: 19px;
-  text-transform: uppercase;
   font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  word-spacing: 18px;
+  text-transform: uppercase;
   margin-right: 78px;
 }
 
